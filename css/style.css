@@ -1,0 +1,109 @@
+
+html,body {
+    
+    height: 100%;
+}
+
+
+body{
+    background-image: url(../assets/citybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   text-align: center;
+   overflow: hidden;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+     margin: 30px;
+    position :relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-fill-mode: backwards;
+    
+    }
+
+
+/* Standard syntax */
+@-webkit-keyframes move{
+    
+   from{top:0px;}
+	
+   to{top: 200px;}
+   
+}
+
+@keyframes move{
+    
+   from{top:0px;}
+	
+   to{top: 200px;}
+   
+}
+
+@-webkit-keyframes animate{
+    from {top:0;}
+    
+    to {left:200px;}
+}
+@keyframes animate{
+    from {top:0;}
+    
+    to {left:200px;}
+}
+
+@-webkit-keyframes example{
+    from {top:0;}
+    
+    to {right:200px;}
+}
+@keyframes example{
+    from {top:0;}
+    
+    to {right:200px;}
+}
+
+
+/* header */
+
+    h6 {
+    margin-top: 0px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive; 
+    }
+
+    h1{
+   font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+     animation-name: animate;
+    animation-duration: 4s;
+    position: relative;
+    
+     
+    }
+
+    p{
+    font-size: 30px;
+     animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    
+   
+    }
+
+
+    input {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    border: 0px;
+    font-size: 18px;
+   
+    } 
+   
+    input[type=submit]{
+    background-color: red;
+    color: white;
+    }    
+
